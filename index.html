@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barbearia do Elias</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #111; color: #fff; padding: 20px; text-align: center; }
+    h1 { color: #e0c300; }
+    form { margin-top: 30px; }
+    input, select, button { padding: 10px; margin: 10px; width: 80%; max-width: 300px; border: none; border-radius: 5px; }
+    button { background: #e0c300; color: #000; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>Agende seu Corte</h1>
+  <form>
+    <input type="text" placeholder="Seu nome" required><br>
+    <input type="tel" placeholder="Telefone (WhatsApp)" required><br>
+    <input type="date" required><br>
+    <select required>
+      <option value="">Escolha o horário</option>
+      <option>09:00</option>
+      <option>10:00</option>
+      <option>11:00</option>
+      <option>14:00</option>
+      <option>15:00</option>
+      <option>16:00</option>
+    </select><br>
+    <button type="submit">Agendar</button>
+  </form>
+</body>
+</html>
